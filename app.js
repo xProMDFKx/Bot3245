@@ -171,7 +171,7 @@ client.on("message", async message => {
   let sicon = message.guild.iconURL;
   embed.addField('✰ | Ce este acest server?', `:black_medium_small_square: **MEDIEVALMC** - Este un server creat pe data de  27 Ianuarie 2018 de catre zaTymbark, serverul predispune de un staff echilibrat,dar totusi suntem in cautare de Staff! `)
   embed.addField('✰ | Ce trebuie sa faci ca sa primesti Helper?', `:black_medium_small_square: Trebuie sa mergi la #helper si sa faci o cerere respectand modelul dat. Dar desigur noi avem si niste cerinte, sa ai minim 13 ani, level 3 pe server, o gramatica buna si un limbaj cat mai adecvat.`)
-  embed.addField('✰ | Linkuri Importante', `:black_small_square: Comunitatea oficiala - http://medievalmc.org`)
+  embed.addField('✰ | Linkuri Importante', `:black_small_square: Comunitatea oficiala - http://medievalmc.ro`)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Informatii', message.guild.iconURL)
