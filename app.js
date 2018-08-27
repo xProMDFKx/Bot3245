@@ -160,7 +160,7 @@ client.on("message", async message => {
   embed.addField('✰ | Comenzi', `:black_small_square: Nu aveti voie sa folositi comenzi pe #general ci doar pe #comenzi-bot ✰ | Sanctiunie - Warn`)
   embed.addField('✰ | Spam', `:black_small_square: Nu aveti voie sa spamati/prelungiti ✰ | Sanctiunie - Warn`)
   embed.addField('✰ | Mentiuni', `:black_small_square: Nu aveti voie sa mentionati aiurea stafful ✰ | Sanctiunie - Mute 30 min.`)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Regulament', message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -172,7 +172,7 @@ client.on("message", async message => {
   embed.addField('✰ | Ce este acest server?', `:black_medium_small_square: **SHIELDZONE** - Este un server creat pe data de 20.04.2018 de catre xJokerFTW, serverul predispune de un staff echilibrat,dar totusi suntem in cautare de Staff! `)
   embed.addField('✰ | Ce trebuie sa faci ca sa primesti Helper?', `:black_medium_small_square: Trebuie sa mergi la #helper si sa faci o cerere respectand modelul dat. Dar desigur noi avem si niste cerinte, sa ai minim 13 ani, level 3 pe server, o gramatica buna si un limbaj cat mai adecvat.`)
   embed.addField('✰ | Linkuri Importante', `:black_small_square: Comunitatea cu care noi suntem parteneri - http://painlessgaming.org`)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Informatii', message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -187,7 +187,7 @@ client.on("message", async message => {
   embed.addField('✰ | Legend', `:black_small_square: Acest grad costa - 4000 coins`)
   embed.addField('✰ | Ultra', `:black_small_square: Acest grad costa - 2000 coins`)
   embed.addField('✰ | Cum cumpar un grad?', `:black_medium_small_square: **ATENTIE!** - Ca sa cumperi un grad trebuie sa scrii t!credits @« ℑ | xJokerFTW#9244 (suma)`)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Magazin', message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -204,7 +204,7 @@ client.on("message", async message => {
   embed.addField('Creat la', message.guild.createdAt, true)
   embed.addField('afkChannel', message.guild.afkChannel , true)
   embed.addField('afkTimeout', message.guild.afkTimeout, true)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Informatii server', message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -214,7 +214,7 @@ client.on("message", async message => {
   const embed = new Discord.RichEmbed()
   embed.setTitle("**Avatar-ul tai :)**\n")
   embed.setImage(message.author.avatarURL)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.author.iconURL)
   embed.setFooter('Cred ca ti-am fost de folos', message.author.avatarURL)
   message.channel.sendEmbed(embed)
@@ -223,7 +223,7 @@ client.on("message", async message => {
       if(command === "info") {
   const embed = new Discord.RichEmbed()
   embed.addField('Informatii bot', `Salut, eu am fost creat de @« ℑ | xJokerFTW#9244 pentru ca sa moderez serverele (in curand mai multe comenzi)`)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Roles', message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -242,7 +242,7 @@ client.on('guildMemberAdd', member => {
     let memberavatar = member.user.avatarURL
         if (!channel) return;
         let embed = new Discord.RichEmbed()
-        .setColor('0x7CB9E8')
+        .setColor('0xFF8000')
         .setThumbnail(memberavatar)
         .addField('✰ | Nume : ', `${member}`)
         .addField('✰ | Bun venit!', `Bun venit pe server, ${member}`)
@@ -267,7 +267,7 @@ client.on('guildMemberRemove', member => {
     let memberavatar = member.user.avatarURL
         if (!channel) return;
         let embed = new Discord.RichEmbed()
-        .setColor('0x7CB9E8')
+        .setColor('0xFF8000')
         .setThumbnail(memberavatar)
         .addField('✰ | Nume:', `${member}`)
         .addField('✰ | A iesit de pe server', ';(')
@@ -285,12 +285,12 @@ client.on('guildMemberRemove', member => {
 });
 
 client.on('ready', () => {
-  client.user.setGame('ShieldZone | sh!help', 'https://www.twitch.tv/streamerhouse', 'ShieldZone | sh!help')
+  client.user.setGame('MedievalMC | mm!help', 'https://www.twitch.tv/streamerhouse', 'MedievalMC | mm!help')
 })
 
 client.on('message', message => {
 if(message.content.startsWith('/mass')) {
-    if(message.author.id === "272074897839226884"){
+    if(message.author.id === "431675468077596673"){
         let args = message.content.split(" ").slice(1);
         var argresult = args.join(" ")
         const argsresult = args.join(" ")
