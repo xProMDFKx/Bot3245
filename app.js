@@ -216,7 +216,7 @@ client.on("message", async message => {
   embed.setImage(message.author.avatarURL)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.author.iconURL)
-  embed.setFooter('Cred ca ti-am fost de folos', message.author.avatarURL)
+  embed.setFooter('Avatar', message.author.avatarURL)
   message.channel.sendEmbed(embed)
   }
   
