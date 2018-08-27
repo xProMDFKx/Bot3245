@@ -16,7 +16,7 @@ client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
   // Example of changing the bot's playing game to something useful. `client.user` is what the
   // docs refer to as the "ClientUser".
-  client.user.setGame('ShieldZone | sh!help', 'https://www.twitch.tv/streamerhouse', 'ShieldZone | sh!help')
+  client.user.setGame('MedievalMC | mm!help', 'https://www.twitch.tv/streamerhouse', 'MedievalMC | mm!help')
 });
 
 client.on("guildCreate", guild => {
@@ -144,7 +144,7 @@ client.on("message", async message => {
   embed.addField('✰ | sh!mass', `Aceasta comanda trimite un mesaj la toti membrii.`)
   embed.addField('✰ | sh!avatar', `Aceasta comanda iti arata avatarul tau.`)
   embed.addField('✰ | sh!info', `Aceasta comanda iti arata informatii despre mine.`)
-  embed.setColor(0x7CB9E8)
+  embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Lista pentru ajutor', message.guild.iconURL)
   message.channel.sendEmbed(embed)
