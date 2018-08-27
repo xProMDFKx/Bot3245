@@ -212,7 +212,7 @@ client.on("message", async message => {
   
     if(command === "avatar") {
   const embed = new Discord.RichEmbed()
-  embed.setTitle("**Avatar-ul tai :)**\n")
+  embed.setTitle("**Avatar-ul tau :)**\n")
   embed.setImage(message.author.avatarURL)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.author.iconURL)
