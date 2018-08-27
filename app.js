@@ -225,7 +225,7 @@ client.on("message", async message => {
   embed.addField('Informatii bot', `Salut, eu am fost creat de @« ℑ | xJokerFTW#9244 pentru ca sa moderez serverele (in curand mai multe comenzi)`)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
-  embed.setFooter('Roles', message.guild.iconURL)
+  embed.setFooter('Despre bot', message.guild.iconURL)
   message.channel.sendEmbed(embed)
   }
   
