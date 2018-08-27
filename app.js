@@ -169,9 +169,9 @@ client.on("message", async message => {
     if(command === "informatii") {
   const embed = new Discord.RichEmbed()
   let sicon = message.guild.iconURL;
-  embed.addField('✰ | Ce este acest server?', `:black_medium_small_square: **SHIELDZONE** - Este un server creat pe data de 20.04.2018 de catre xJokerFTW, serverul predispune de un staff echilibrat,dar totusi suntem in cautare de Staff! `)
+  embed.addField('✰ | Ce este acest server?', `:black_medium_small_square: **MEDIEVALMC** - Este un server creat pe data de  27 Ianuarie 2018 de catre zaTymbark, serverul predispune de un staff echilibrat,dar totusi suntem in cautare de Staff! `)
   embed.addField('✰ | Ce trebuie sa faci ca sa primesti Helper?', `:black_medium_small_square: Trebuie sa mergi la #helper si sa faci o cerere respectand modelul dat. Dar desigur noi avem si niste cerinte, sa ai minim 13 ani, level 3 pe server, o gramatica buna si un limbaj cat mai adecvat.`)
-  embed.addField('✰ | Linkuri Importante', `:black_small_square: Comunitatea cu care noi suntem parteneri - http://painlessgaming.org`)
+  embed.addField('✰ | Linkuri Importante', `:black_small_square: Comunitatea oficiala - http://medievalmc.org`)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Informatii', message.guild.iconURL)
@@ -186,7 +186,7 @@ client.on("message", async message => {
   embed.addField('✰ | Supreme', `:black_small_square: Acest grad costa - 5000 coins`)
   embed.addField('✰ | Legend', `:black_small_square: Acest grad costa - 4000 coins`)
   embed.addField('✰ | Ultra', `:black_small_square: Acest grad costa - 2000 coins`)
-  embed.addField('✰ | Cum cumpar un grad?', `:black_medium_small_square: **ATENTIE!** - Ca sa cumperi un grad trebuie sa scrii t!credits @« ℑ | xJokerFTW#9244 (suma)`)
+  embed.addField('✰ | Cum cumpar un grad?', `:black_medium_small_square: **ATENTIE!** - Ca sa cumperi un grad trebuie sa scrii t!credits @xJokerFTW / Flash#9244 (suma)`)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Magazin', message.guild.iconURL)
@@ -198,7 +198,7 @@ client.on("message", async message => {
   embed.setTitle("**ServerInfo**\n")
   embed.addField('Membrii', message.guild.memberCount, true)
   embed.addField('Nume', message.guild.name, true)
-  embed.addField('Regiunie', message.guild.region, true)
+  embed.addField('Regiune', message.guild.region, true)
   embed.addField('Owner', message.guild.owner, true)
   embed.addField('ID', message.guild.id, true)
   embed.addField('Creat la', message.guild.createdAt, true)
@@ -222,7 +222,7 @@ client.on("message", async message => {
   
       if(command === "info") {
   const embed = new Discord.RichEmbed()
-  embed.addField('Informatii bot', `Salut, eu am fost creat de @« ℑ | xJokerFTW#9244 pentru ca sa moderez serverele (in curand mai multe comenzi)`)
+  embed.addField('Informatii bot', `Salut, eu am fost creat de @xJokerFTW / Flash#9244 pentru ca sa moderez serverele (in curand mai multe comenzi)`)
   embed.setColor(0xFF8000)
   embed.setThumbnail(message.guild.iconURL)
   embed.setFooter('Despre bot', message.guild.iconURL)
